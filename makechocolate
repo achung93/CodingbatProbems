@@ -1,0 +1,23 @@
+public int makeChocolate(int small, int big, int goal) {
+ 
+   if(small>=goal){
+      return goal;
+      }
+      
+   while(big>0){
+       
+       big--;
+       goal = goal - 5;
+       
+       if(goal<5){
+           break;
+             }
+          }
+          
+     if(small>=goal){
+         return goal;
+         }
+      else{
+        return -1;
+        }
+}
