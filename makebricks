@@ -1,0 +1,24 @@
+public boolean makeBricks(int small, int big, int goal) {
+  
+  while(goal>=5){
+      
+      if(big>0){
+         big--;
+         goal = goal - 5;
+         }
+         
+      if(big==0){
+         break;
+         }
+       }
+       
+       if(goal==0){
+          return true;
+          }
+       if(small>=goal){
+           return true;
+           }
+       else{
+           return false;
+           }
+}
