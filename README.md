@@ -1,3 +1,3 @@
 # CodingbatProbems
 Java->Logic2->makeBricks
-http://codingbat.com/prob/p183562
+http://codingbat.com/java
